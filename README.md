@@ -4,8 +4,14 @@ Mancala
 
 ## Description
 
-Provides the user with a fully equiped package that allows two players to play Mancala, using either Kalah or Ayo rules. This package is complete with a visual user interface for input and output. This project contains all of the generally accepted rules of mancala, including bonus turns and captures for Kalah, and a composite of generally accepted Ayo rules.
+Provides the user with a fully equiped package that allows two players to play Mancala, using either Kalah or Ayo rules. This package is complete with a visual user interface for input and output. This project contains all of the generally accepted rules of mancala, including bonus turns and captures for Kalah, and a composite of generally accepted Ayo rules. Additonally, this program can save user profiles, as well as games in-progress, allowing users to seamlessly pick up where they left off!
 
+## Pictures
+
+| ![image](https://github.com/proby-8/mancala/assets/109328434/165167a1-91d8-44a9-b93a-bead8ff47e9a) | ![image](https://github.com/proby-8/mancala/assets/109328434/c892ed11-5bb4-4fa5-ac9f-976f416a03cf) |
+|:---:|:---:|
+
+## Class Breakdown
 Pit class:
  - Contains the number of stones in the pit
  - Method to add a stone to the pit
@@ -122,6 +128,8 @@ gradle build
 java -jar build/libs/Mancala.jar
 ```
 * Follow the instructions on the GUI to play the game
+
+Alternatively download the latest release of the program, and execute mancala.jar.
 ## Limitations
 
 The project has been fully completed.
