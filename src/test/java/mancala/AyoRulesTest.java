@@ -5,9 +5,6 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import java.beans.Transient;
-
-
 public class AyoRulesTest {
     private AyoRules rules;
     private Player player1;

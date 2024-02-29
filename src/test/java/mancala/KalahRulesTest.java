@@ -53,7 +53,7 @@ public class KalahRulesTest {
         //remove all stones from pit 1
         data.removeStones(1);
         //player one move stones starting at pit one
-        int num = rules.moveStones(6,1);
+        rules.moveStones(6,1);
        
        //player store should now have 7 stones
        assertEquals(7, player1.getStoreCount());    
